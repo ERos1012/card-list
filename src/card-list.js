@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit";
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
-import "erosfinal-character-card/src/professor-card2.js";
+import "erosfinal-character-card/src/character-card.js";
 
 class CardList extends LitElement {
   static properties = {
@@ -26,9 +26,8 @@ class CardList extends LitElement {
 
   render() {
     return html`
-        <erosfinal-character-card
-        subtitle="Eric">
-        </erosfinal-character-card>
+      <h1>${this.header}</h1>
+      <erosfinal-character-card characterName="Eros"></erosfinal-character-card>
     `;
   }
 }

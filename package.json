@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@lrnwebcomponents/meme-maker": "^4.1.0",
-    "erosfinal-character-card": "^1.0.4",
+    "eros1012-character-card": "^0.0.0",
+    "erosfinal-character-card": "^1.0.6",
     "lit": "^2.0.2"
   },
   "devDependencies": {
