@@ -82,7 +82,7 @@ class CardList extends LitElement {
       <!-- card 1  -->
       <character-card
       pusheenImg= https://dk2dv4ezy246u.cloudfront.net/widgets/sSFCaxH9f0X_large.jpg
-      >
+      ><p>Pusheen loves bread!!</p>
       </character-card>
 
     `;
