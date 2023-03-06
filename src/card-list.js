@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit";
 import "@lrnwebcomponents/meme-maker/meme-maker.js";
 import "erosfinal-character-card/src/character-card2.js";
+import "msanyal7character-card/src/character-card.js";
 
 class CardList extends LitElement {
   static properties = {
@@ -15,12 +16,13 @@ class CardList extends LitElement {
 
   constructor() {
     super();
-    this.header = "My Card List";
+    this.header = "Our Card List";
   }
 
   render() {
     return html`
       <h1>${this.header}</h1>
+      <!-- Eric's Card -->
       <!-- first card -->
       <character-card2
         title="Pikachu"
@@ -75,6 +77,9 @@ class CardList extends LitElement {
         bio="He is a psychic type pokemon"
       > <p>HP:100/100</p>
       </character-card2>
+
+      <!-- Manali's Card -->
+
     `;
   }
 }
