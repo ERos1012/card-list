@@ -79,10 +79,30 @@ class CardList extends LitElement {
       </character-card2>
 
       <!-- Manali's Card -->
-      <!-- card 1  -->
+      <!-- card 1-->
+      <character-card>
+      <p> Pusheen on a regular day! </p>
+      
+      </character-card>
+      <!-- card 2  -->
       <character-card
       pusheenImg= https://dk2dv4ezy246u.cloudfront.net/widgets/sSFCaxH9f0X_large.jpg
       ><p>Pusheen loves bread!!</p>
+      </character-card>
+      <!-- card 3  -->
+      <character-card
+      pusheenImg= 'https://cdn.shopify.com/s/files/1/1240/0898/files/step2_img.png?v=1620248424'
+      ><p>Pusheen practicing web programming!</p>
+      </character-card>
+      <!-- card 4  -->
+      <character-card
+      pusheenImg= https://i.pinimg.com/originals/8d/ec/ca/8decca007a6f86e1b00ea4277d678067.jpg
+      ><p>Pusheen loves hanging out with friends</p>
+      </character-card>
+       <!-- card 5  -->
+       <character-card
+      pusheenImg= https://i.pinimg.com/originals/52/8f/6c/528f6c536204f79f8ef63808d57152e9.jpg
+      ><p>Pusheen catching some rays at the beach</p>
       </character-card>
 
     `;
